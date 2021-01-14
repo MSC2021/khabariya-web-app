@@ -45,3 +45,34 @@
 .selected {
   width: 35rem;
 }
+
+/* for main news card */
+.top-new-wrapper {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px dashed rebeccapurple;
+}
+
+.top-news-image {
+  border-radius: 4px;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.news-div {
+  margin: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.news-div button {
+  border: none;
+  align-self: flex-end;
+  border-radius: 8px;
+  background-color: sandybrown;
+  color: white;
+}
