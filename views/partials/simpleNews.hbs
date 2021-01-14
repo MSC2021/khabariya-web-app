@@ -1,3 +1,13 @@
-<div class="">
-
+<div>
+    {{#each news}}
+    <div class="simple-news-wrapper">
+        <img src="{{this.newsImage}}" class="simple-news-image">
+        <div class="simple-news-div">
+            <h3>{{this.newsHeadLine}}</h3>
+            <p>{{this.newsContent}}</p>
+        </div>
+    </div>
+    <div class="container grey-wrapper">
+    </div>
+    {{/each}}
 </div>

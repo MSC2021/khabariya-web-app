@@ -118,3 +118,30 @@
 .video-news p {
   overflow: hidden;
 }
+
+/* simple news styling */
+.simple-news-wrapper {
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* border: 2px dashed rebeccapurple; */
+}
+
+.simple-news-image {
+  cursor: pointer;
+  border-radius: 8px;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
+
+.simple-news-div {
+  margin: 30px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.simple-news-div p {
+  overflow: hidden;
+}
