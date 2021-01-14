@@ -1,0 +1,16 @@
+/* for navbar */
+.navbar {
+  background-color: #3b3b3b !important;
+  padding: 0px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  /* background-image: url("../../views/images/toogle.svg"); */
+  /* white navicon */
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABkCAMAAACCTv/3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////5ubmueBsSwAAAAJ0Uk5T/wDltzBKAAAAPklEQVR42uzYQQ0AAAgDseHfNC4IyVoD912WAACUm3uampqampqamq+aAAD+IVtTU1NTU1NT0z8EAFBsBRgAX+kR+Qam138AAAAASUVORK5CYII=);
+}
+
+/* main css */
+.heading {
+  background-color: rebeccapurple;
+}
