@@ -1,7 +1,37 @@
 /* for navbar */
 .navbar {
+  margin: 0px;
   background-color: #3b3b3b !important;
   padding: 0px;
+}
+.nav-link {
+  margin: 0dp;
+  padding: 0dp;
+}
+.navbar-collapse {
+  /* border: 1px solid rebeccapurple; */
+}
+.nav-item .active {
+  text-decoration: underline;
+}
+.nav-item :first-child {
+  margin-left: 3rem;
+}
+
+.nav-item {
+  margin-left: 3rem;
+}
+.brand-logo {
+  border: 0dp;
+  padding: 0dp;
+  /* border: 2px solid white; */
+  border-radius: 0px;
+  width: 150px;
+  height: 90px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.navbar-nav {
 }
 
 .custom-toggler .navbar-toggler-icon {
