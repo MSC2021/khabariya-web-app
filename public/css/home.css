@@ -48,16 +48,16 @@
 
 /* for main news card */
 .top-new-wrapper {
-  width: 50%;
   align-items: center;
   display: flex;
-  margin-top: 20px;
+  margin-top: 100px;
   margin-bottom: 20px;
-  border: 2px dashed rebeccapurple;
+  /* border: 2px dashed rebeccapurple; */
 }
 
 .top-news-image {
-  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 8px;
   object-fit: cover;
   width: 300px;
   height: 300px;
@@ -65,14 +65,56 @@
 
 .news-div {
   margin: 30px;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
 }
+.news-div p {
+  overflow: hidden;
+}
+
 .news-div button {
   border: none;
   align-self: flex-end;
   border-radius: 8px;
   background-color: sandybrown;
   color: white;
+}
+
+.grey-wrapper {
+  margin: 0dp auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  height: 2px;
+  align-items: center;
+  background-color: #adb5bd;
+}
+
+/* horizontal video news styling */
+.horz-video-news-container {
+  align-items: center;
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.video-news {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+}
+
+.video-news img {
+  margin-top: 8px;
+  border-radius: 8px;
+  width: 100%;
+  height: 200px;
+}
+.video-news p {
+  overflow: hidden;
 }

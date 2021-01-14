@@ -6,3 +6,4 @@
 - make site responsive
 - hover effect on top cards
 - footer colliding with div
+- put play icon at the center of the div
