@@ -28,10 +28,10 @@ app.get('/',(req,res)=>{
         style:'home.css',
        videoNews:[
            {
-                newsImage:"https://akm-img-a-in.tosshub.com/aajtak/images/story/202101/jasprit_bumrah-1-sixteen_nine.jpg?size=1200:675",
+                newsImage:"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f47d4de7637290765bce495%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1398%26cropX2%3D3908%26cropY1%3D594%26cropY2%3D3102",
                newsDescription:"दिल्ली सरकार ने चिकन के व्यापार और आयात पर लगे प्रतिबंध को हटाने का आदेश दिया है. इसके अलावा पोल्ट्री मार्केटखोलने के"
            },{
-                newsImage:"https://akm-img-a-in.tosshub.com/aajtak/images/story/202101/jasprit_bumrah-1-sixteen_nine.jpg?size=1200:675",
+                newsImage:"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f47d4de7637290765bce495%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1398%26cropX2%3D3908%26cropY1%3D594%26cropY2%3D3102",
                newsDescription:"दिल्ली सरकार ने चिकन के व्यापार और आयात पर लगे प्रतिबंध को हटाने का आदेश दिया है. इसके अलावा पोल्ट्री मार्केटखोलने के"
            },{
                newsImage:"https://akm-img-a-in.tosshub.com/aajtak/images/story/202101/ajinkya_rahane_and_tim_paine_-1-sixteen_nine.jpg?size=1200:675",
