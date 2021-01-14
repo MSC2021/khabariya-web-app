@@ -24,7 +24,9 @@ app.use(express.static('views/images'));
 app.set('view engine', 'hbs');
 
 app.get('/',(req,res)=>{
-    res.render('home');
+    res.render('home',{
+        style:'home.css'
+    });
 })
 
 app.get('/demo', function (req, res) {

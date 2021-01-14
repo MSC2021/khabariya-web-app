@@ -1,0 +1,47 @@
+/* .container-fluid {
+} */
+.videos-wrapper {
+  display: flex;
+  margin-top: 30px;
+  background-color: #3b3b3b !important;
+  overflow: auto;
+}
+/* todo  */
+.videos-wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.text-wrapper h1 {
+  color: white;
+}
+
+.inner-video-wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.video-element {
+  margin-left: 20px;
+  cursor: pointer;
+  width: 25rem;
+}
+.video-element .card-body {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.video-element .card-body p {
+  padding: 3px;
+  /* border: 2px dashed rebeccapurple; */
+}
+
+.selected {
+  width: 35rem;
+}
