@@ -111,3 +111,15 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
+
+@media screen and (max-width: 800px) {
+  .footer-header,
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-row p {
+    text-align: center;
+  }
+}

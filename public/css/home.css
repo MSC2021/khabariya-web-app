@@ -202,6 +202,15 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 800px) {
+  .simple-news-wrapper {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /* trending news styling */
 .trending-news-contanier {
   position: relative;
