@@ -1,12 +1,13 @@
 /* .container-fluid {
 } */
 .videos-wrapper {
+  width: 100%;
   display: flex;
   margin-top: 30px;
   background-color: #3b3b3b !important;
   overflow: auto;
 }
-/* todo  */
+
 .videos-wrapper::-webkit-scrollbar {
   width: 0;
 }
@@ -31,7 +32,7 @@
 .video-element {
   margin-left: 20px;
   cursor: pointer;
-  width: 25rem;
+  width: 25%;
 }
 .video-element .card-body {
   padding: 0px !important;
@@ -43,7 +44,31 @@
 }
 
 .selected {
-  width: 35rem;
+  width: 35%;
+}
+
+@media screen and (max-width: 800px) {
+  .videos-wrapper {
+    flex-direction: column;
+  }
+  .inner-video-wrapper {
+    flex-direction: column;
+  }
+  .selected,
+  .video-element {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .text-wrapper {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .text-wrapper h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 }
 
 /* for main news card */
