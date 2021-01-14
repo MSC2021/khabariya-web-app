@@ -56,6 +56,10 @@ app.get('/',(req,res)=>{
     });
 })
 
+app.get('/news/details/:slug',(req,res)=>{
+    res.render('newDetails');
+});
+
 app.get('/demo', function (req, res) {
     res.render('demo', {
         posts: [
