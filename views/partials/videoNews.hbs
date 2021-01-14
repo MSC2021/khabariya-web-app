@@ -1,3 +1,8 @@
-<div class="video-news">
-    <img src={{newsImage}}>
+<div class="container horz-video-news-container">
+    {{#each news}}
+    <div class="video-news">
+        <img src="{{this.newsImage}}">
+        <p>{{this.newsDescription}}</p>
+    </div>
+    {{/each}}
 </div>
