@@ -145,3 +145,27 @@
 .simple-news-div p {
   overflow: hidden;
 }
+
+/* trending news styling */
+.trending-news-contanier {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.trending-news-contanier img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.trending-news-contanier p {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-weight: bold;
+  font-size: 2rem;
+}
