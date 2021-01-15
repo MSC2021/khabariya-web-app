@@ -3,8 +3,7 @@
 **todos**
 
 - fix horizontal scrool for firefox
-- make site responsive
 - hover effect on top cards
-- footer colliding with div
 - put play icon at the center of the div
 - clean the code of the index.js create package for dummy data
+- navigation drop down menu
