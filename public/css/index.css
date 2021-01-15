@@ -13,10 +13,17 @@
   /* border: 1px solid rebeccapurple; */
 }
 .nav-item {
-  margin: 3rem;
+  margin: 0px;
 }
 .nav-item .active {
   text-decoration: underline;
+}
+.navbar-wrapper {
+  width: 100%;
+  /* border: 2px dashed rebeccapurple; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .dropdown-menu .dropdown-item {
@@ -124,5 +131,8 @@
   }
   .footer-row p {
     text-align: center;
+  }
+  .navbar-wrapper {
+    flex-direction: column;
   }
 }
