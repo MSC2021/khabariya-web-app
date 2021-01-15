@@ -57,7 +57,9 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/news/details/:slug',(req,res)=>{
-    res.render('newDetails');
+    res.render('newDetails',{
+        style:'detail.css'
+    });
 });
 
 app.get('/demo', function (req, res) {
