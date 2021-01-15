@@ -4,26 +4,29 @@
 
 /* for navbar */
 .navbar {
+  width: 100%;
   margin: 0px;
   background-color: #3b3b3b !important;
   padding: 0px;
 }
-.nav-link {
-  margin: 0dp;
-  padding: 0dp;
-}
 .navbar-collapse {
   /* border: 1px solid rebeccapurple; */
+}
+.nav-item {
+  margin: 3rem;
 }
 .nav-item .active {
   text-decoration: underline;
 }
-.nav-item :first-child {
-  margin-left: 3rem;
-}
 
-.nav-item {
-  margin-left: 3rem;
+.dropdown-menu .dropdown-item {
+  margin-left: 0px;
+  width: fit-content;
+}
+@media screen and (max-width: 950px) {
+  .nav-item {
+    margin: 10px;
+  }
 }
 .nav-item a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
